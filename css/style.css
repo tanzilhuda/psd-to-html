@@ -1,0 +1,532 @@
+
+
+/*start of header area  */
+*{margin: 0;padding: 0;}
+.header{
+    background: #2c3e50;
+}
+
+.header img{
+    margin-left: 40%;
+    margin-right:40%;
+    margin-top: 56px;
+    margin-bottom: 125px;
+}
+.header h1{
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.header img:last-child{
+    margin-left: 49%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.header button{
+    width: 238px;
+    height: 56px;
+    background: #e74c3c;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 40%;
+    margin-top: 85px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.header p{
+    text-align: center;
+    color: #fff;
+    font-weight:300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom:10px;
+}
+
+
+/*end of header area  */
+
+/* start of monir  vai css*/
+
+
+body {
+    font-family: 'Poiret One', cursive;
+    font-size: medium;
+    color: black;
+}
+.monir{
+    padding:50px 0px;
+}
+h2 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 33px;
+    color: #2c3e50;
+}
+
+h4 {
+    color: #eb7063;
+}
+
+p {
+    color: #b0b0b0;
+}
+
+.topheight {
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: MyCustomFont;
+    src: url(../fonts/roboto.light.eot);
+    /* EOT file for IE */
+}
+
+@font-face {
+    font-family: MyCustomFont;
+    src: url(../fonts/roboto.light.ttf);
+    /* TTF file for CSS3 browsers */}
+/*end of onir vai css start*/
+
+/*---- start of detailed_area ------*/
+
+.detailed_area{
+    color: #FFF;
+    background-color: #2c3e50;
+    padding: 104px 0px;
+}
+.detailed_area h1{
+    padding-bottom:27px;
+}.detailed_area h3{
+    padding-bottom: 43px;
+}
+.detailed_area p{
+    padding-bottom:40px;
+}
+.box1{
+        height: 330px;
+    padding: 42px;
+    border-right: 1px solid #556472;
+    border-bottom: 1px solid #556472;
+}
+.box2{
+        height: 330px;
+    border-bottom: 1px solid #556472;
+    padding: 42px;
+  
+}
+.box3{
+        height: 330px;
+    border-right: 1px solid #556472;
+     padding: 42px;
+  
+}
+.box4{
+        height: 330px;
+     padding: 42px;
+    
+}
+/*---- end of detailed_area ------*/
+
+
+/*start of our work*/
+
+h1{
+    font-family: 'Poiret One', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.work{
+    padding-top: 25px;
+}
+
+
+
+.img-effect{
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background:#D54A3B;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s ;
+    -o-transition: all 0.5s ;
+    transition: all 0.5s ;
+}
+.overlay p{
+/*    position: absolute;*/
+    padding-top:65%;
+    text-align: center;
+    color: white;
+}
+.img-effect:hover .overlay{
+    opacity: 1;}
+.img-effect a{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    top:50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    line-height: 60px;
+    border-radius: 100%;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s ;
+    -o-transition: all 0.5s ;
+    transition: all 0.5s ;
+}
+
+ .img-effect:hover a{
+     opacity: 1;}
+
+.work_area{
+    padding-bottom: 50px;
+}
+/*end of our work*/
+
+/* ======================================================================================== */
+/* =============================== This CSS for Testimonial =============================== */
+/* ======================================================================================== */
+
+.testimonial-area {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonial p {
+    color: #aaa;
+}
+
+.testimonial h4 {
+    border-bottom: 1px solid #425262;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.single-author-img {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 5px;
+    position: relative;
+    transition: .5s;
+}
+
+.single-author-img img {
+    border-radius: 5px;
+}
+
+.author-hover {
+    background-color: #f85a5a;
+    padding: 15px 12px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.single-author-img:hover .author-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sponsors ul li {
+    padding: 0 13px;
+    width: 16%;
+}
+
+
+
+
+/* ======================================================================================== */
+/* ================================== This CSS for Showcase =============================== */
+/* ======================================================================================== */
+
+.showcase-area {
+    background-color: #232323;
+}
+
+.showcase-img img {
+  height: 640px;
+}
+
+.showcase-area p {
+    color: #bbb;
+    font-size: 15px;
+}
+
+.showcase-left {
+    padding-bottom: 70px;
+    padding-left: 13%;
+    padding-top: 80px;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 4px 25px 4px 4px;
+}
+
+.thumbnail .caption {
+  color: #333;
+  padding: 9px 9px 9px 0;
+}
+
+.caption h4 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 15px 0 0;
+}
+
+.caption p {
+    color: #bbb;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* =============================== pricing-table css ================================= */
+#pricing-table {
+    padding-bottom: 70px;
+}
+#pricing-table .info{
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+    text-align: center;
+}
+#pricing-table  h1{
+    color: #2c3e50;
+}
+.single-pricing-table {
+    border: 1px solid #e5e5e5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.single-pricing-table h3 {
+    background: #F9F9F9;
+    margin: 0;
+    padding: 30px 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border-bottom: 1px solid #e5e5e5;
+}
+.single-pricing-table small {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    background: #F9F9F9;
+}
+
+.pricing-list > ul {
+    padding:0 15px;
+}
+
+.pricing-list > ul > li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.pricing-link {
+}
+
+.btn-custom {
+    background: #2c3e50 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.single-pricing-table:hover {
+    border: 1px solid #E74C3C;
+}
+.single-pricing-table .btn-custom:hover{
+    background: #E74C3C;
+    color: #fff;
+}
+.single-pricing-table:hover h3, .single-pricing-table:hover small{
+    background: #E74C3C;
+    color: #fff;
+}
+
+/* =============================== footer css ================================= */
+footer{
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    padding: 35px 0;
+}
+.social-links {
+}
+
+footer  .social_icon a .fa-facebook {
+  background-color: #3b5998;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+  width: 30px;
+}
+footer  .social_icon a .fa-twitter {
+  background-color: #00aced;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+  width: 30px;
+}
+footer  .social_icon a .fa-google-plus {
+  background-color: #dd4b39;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+  width: 30px;
+}
+footer  .social_icon a:hover {
+  opacity: 0.9;
+}
+footer a {
+    color: #E74C3C;
+}
+
+.fa {
+}
+
+.fa-facebook {
+}
+
+.fa-twitter {
+}
+
+.fa-google-plus {
+}
+
+/* =============================== top css ================================= */
+#top-id a {
+  background: #E74C3C;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  left: 50%;
+  line-height: 35px;
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  top: -20px;
+  width: 40px;
+}
+#top-id a:hover{
+    background: #C9302C;
+}
+
+/*==================== Our Team Nasir========================*/
+
+#our_team{
+    padding-bottom: 70px;
+}
+#our_team .col-md-6 h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	color:#9E9E9E;
+	margin-top:70px;
+}
+#our_team .col-md-6 p,.team_member h3,.team_member p{
+	color:#9E9E9E;
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+#our_team .social_icon a .fa-facebook{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: #3B5998;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	-webkit-transition:all.5s;
+	-moz-transition:all.5s;
+	-o-transition:all.5s;
+	-ms-transition:all.5s;
+	transition:all.5s;
+}
+#our_team .social_icon a .fa-twitter{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: #00ACED;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	-webkit-transition:all.5s;
+	-moz-transition:all.5s;
+	-o-transition:all.5s;
+	-ms-transition:all.5s;
+	transition:all.5s;
+}
+#our_team .social_icon a .fa-google-plus{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: #DD4B39;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	-webkit-transition:all.5s;
+	-moz-transition:all.5s;
+	-o-transition:all.5s;
+	-ms-transition:all.5s;
+	transition:all.5s;
+}
+#our_team .social_icon a:hover i{
+	background-color:#F34242;
+	color: #000;
+}
+
+/* ==================== contact us css =======================  */
+.bg-color-blue{
+ background-color: #2c3e50; 
+    padding-bottom: 70px;
+}
+.text-color-white p{
+    color: white;
+}
+
+.add-on-custom-bg{
+  background-image: url(../images/index-blank.png);  
+    
+}
+

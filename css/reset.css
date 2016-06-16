@@ -1,0 +1,58 @@
+body {
+    font-size: 14px;
+    line-height: 1.3em;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Poiret One",cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #555555;
+    margin: 25px 0;
+    line-height: 1.8em;
+}
+
+.no-padding {
+    padding: 0;
+}
